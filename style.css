@@ -1,5 +1,6 @@
 * {
   text-decoration: none;
+  font-weight: 400;
 }
 
 @font-face {
@@ -30,8 +31,15 @@ font-family: 'Bubblegum Sans', cursive;
 
 }
 
-.hvr-underline-from-center {
-  border-color:yellow !important;
+
+
+.nav
+
+
+
+
+.hvr-underline-from-center:before {
+  background:black !important;
 }
 
 
@@ -52,7 +60,7 @@ font-family: 'Bubblegum Sans', cursive;
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: yellow;
+  background: black;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -65,8 +73,6 @@ font-family: 'Bubblegum Sans', cursive;
   left: 0;
   right: 0;
 }
-
-
 
 /* carousel */
 .bd-example {
@@ -108,14 +114,6 @@ hr.my-4 {
 
 .fa-youtube {
   color:#bb0000;
-}
-
-.fa-facebook:hover,
-.fa-twitter:hover,
-.fa-google-plus-g:hover,
-.fa-instagram:hover,
-.fa-youtube:hover {
-  color:#d5d5d5;
 }
 
 /* footer */
