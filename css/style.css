@@ -84,10 +84,7 @@ font-family: 'Bubblegum Sans', cursive;
 img.icons {
   width:50px;
   height:50px;
-}
-
-hr.my-4 {
-  border-top:#F6D91C 4px solid;
+  margin-top:10px;
 }
 
 /* media Icons */
@@ -139,6 +136,12 @@ hr.light-100 {
   margin-bottom: 1rem;
 }
 
+hr.light-full {
+  border-top: 2px solid #F6D91C;
+  padding-top:none;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
 
 /* gallery page */
 .gallery-box {
@@ -146,7 +149,7 @@ hr.light-100 {
 }
 
 .gallery {
-  border:1px solid #ccc;
+  border:1px solid #F6D91C;
 }
 
 .gallery img {
@@ -155,46 +158,39 @@ hr.light-100 {
 }
 
 .des {
-  padding: 15px;
   text-align: center;
+  border-top:1px solid #F6D91C;
+  display:block;
+}
+
+.des a{
+  font-weight: 800;
+  font-size: 1.3rem;
+  color:#9825D1;
+  text-transform: uppercase;
+  display:block;
+  padding: 20px 0;
+  text-decoration: none;
 }
 
 .responsive {
-  padding:10px 6px;
+  padding:40px 20px;
   float:left;
   width: 25%;
 }
 
-.responsive-2 {
-  padding:10px 6px;
-  float:left;
-  width: 50%;
-}
-
 @media only screen and (max-width: 700px) {
   .responsive {
+    padding:10px 15px;
     width: 50%;
     margin: 6px 0;
   }
 
-  .responsive-2 {
-    margin: 6px 0;
-  }
-}
-
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
+    padding:10px 10px;
   }
-
-  .responsive-2 {
-    width:100%;
-  }
-}
-
-
-
-
 
 /*---Media Queries --*/
 @media (max-width: 1200px) {
@@ -214,6 +210,12 @@ hr.light-100 {
     font-size:4em;
     padding:2rem;
   }
+
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+
 
 }
 @media (max-width: 768px) {
