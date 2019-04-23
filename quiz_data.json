@@ -1,49 +1,46 @@
 [
    {
-		"question" : "Saturn is the _______ planet from the Sun.",
+		"question" : "The Colosseum was built in _______.",
        "answers"  : [
-	       {"id" : 0, "text" : "Fourth"},
-			{"id" : 1, "text" : "Sixth"},
-			{"id" : 2, "text" : "Second"},
-			{"id" : 3, "text" : "Eighth"}       
+	       {"id" : 0, "text" : "80 AD"},
+			{"id" : 1, "text" : "70 AD"},
+			{"id" : 2, "text" : "25 AD"},
+			{"id" : 3, "text" : "58 AD"}
 	    ],
-		"correct"  : 1
+		"correct"  : 0
    },
    {
-		"question" : "Which image shows a close-up of Saturn?",
+		"question" : "Which image shows a close-up of Mars?",
 		"answers"  : [
-			{"id"  : 0, "image" : "images/close_up_01.jpg" },
-			{"id"  : 1, "image" : "images/close_up_02.jpg" },
-			{"id"  : 2, "image" : "images/close_up_03.jpg" },
-			{"id"  : 3, "image" : "images/close_up_04.jpg" }
+			{"id"  : 0, "image" : "images/venus_close.jpg" },
+			{"id"  : 1, "image" : "images/jupiter_close.jpg" },
+			{"id"  : 2, "image" : "images/minerva_close.jpg" },
+			{"id"  : 3, "image" : "images/mars_close.jpg" }
 		],
 		"correct"  : 3
 	},
 	{
-		"question" : "One year on Saturn is equivalent to how many years on Earth?",
+		"question" : "What would a Roman soldier NOT come equipped with?",
 		"answers"  : [
-			{"id"  : 0, "text" : "12"},
-			{"id"  : 1, "text" : "6"},
-			{"id"  : 2, "text" : "29"},
-			{"id"  : 3, "text" : "2"}
+			{"id"  : 0, "text" : "Sandals"},
+			{"id"  : 1, "text" : "Javelin"},
+			{"id"  : 2, "text" : "Crossbow"},
+			{"id"  : 3, "text" : "Shield"}
 		],
 		"correct"  : 2
 	},
 	{
-		"question" : "What is the name of Saturn's largest moon?",
+		"question" : "Who is the God of the Sea?",
 		"answers"  : [
-			{"id"  : 0, "text" : "Hercules"},
-			{"id"  : 1, "text" : "Europa"},
-			{"id"  : 2, "text" : "Goliath"},
-			{"id"  : 3, "text" : "Zeus"},
-			{"id"  : 4, "text" : "Titan"},
-			{"id"  : 5, "text" : "Triton"}
+			{"id"  : 0, "text" : "Jupiter"},
+			{"id"  : 1, "text" : "Minerva"},
+			{"id"  : 2, "text" : "Mercury"},
+			{"id"  : 3, "text" : "Neptune"}
 		],
-		"correct"  : 4,
-		"feedback" : "Though the names seem similar, Triton orbits the planet Neptune."
+		"correct"  : 3
 	},
 	{
-		"question" : "Saturn is visible from Earth without a telescope",
+		"question" : "Pluto is the God of the Underworld",
 		"answers"  : [
 			{"id"  : 0, "text" : "True"},
 			{"id"  : 1, "text" : "False"}
@@ -51,7 +48,3 @@
 		"correct"  : 0
 	}
 ]
-
-
-
-
