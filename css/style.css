@@ -5,11 +5,11 @@
 }
 
 @font-face {
-	src: url();
-	font-family: cin;
+	src: url(fonts/BubblegumSans-Regular.ttf);
+	font-family: bub;
 }
 body {
-font-family: 'Bubblegum Sans', cursive;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
  /* Navbar */
@@ -33,6 +33,14 @@ font-family: 'Bubblegum Sans', cursive;
 
 }
 
+#page-active li a{
+  color:#F6D91C;
+}
+
+.page-active-drop  {
+  color:#F6D91C;
+}
+
 /* animation style on nav and colour change */
 .hvr-underline-from-center:before {
   background:#F6D91C !important;
@@ -41,6 +49,41 @@ font-family: 'Bubblegum Sans', cursive;
 /* carousel */
 .bd-example {
   border-bottom: #F6D91C 4px solid;
+}
+
+.carousel-inner img {
+  width:100%;
+  height:100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top:50%;
+  transform: translateY(-25%);
+  color:#fff;
+}
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+  letter-spacing: 5px;
+}
+
+.carousel-control-prev-icon{
+  border:1px #F6D91C solid;
+  background-color:#9825D1;
+}
+
+.carousel-control-next-icon{
+  border:1px #F6D91C solid;
+  background-color:#9825D1;
+}
+
+.carousel-indicators li {
+  background-color:#fff;
+  border:1px #F6D91C solid;
+  padding:2px;
 }
 
 /* Three Columns */
@@ -165,7 +208,7 @@ hr.light-full {
   width: 25%;
 }
 
-#gods h1{
+#header-text h1{
   text-align:center;
   padding:20px;
   font-weight:800;
@@ -173,6 +216,43 @@ hr.light-full {
   letter-spacing: 5px;
   margin-top:20px;
   font-size: 2.5rem;
+}
+
+/* Video Wrapper */
+.video-wrapper {
+  width:80%;
+  margin:auto;
+  margin-top:10px;
+  border:2px solid #F6D91C;
+}
+
+/*Individual God Pages */
+.h2-god-name h2{
+  padding:5px;
+  font-size:6rem;
+  text-transform: uppercase;
+  font-weight:800;
+  text-align: center;
+}
+
+.h2-god h3 {
+  text-align:center;
+  font-size:4rem;
+}
+
+.god-text p {
+  font-size:2rem;
+  padding:5px;
+  text-align: center;
+  font-weight:lighter;
+  border:5px gold solid;
+  border-radius: 5px;
+}
+
+.god-image img{
+  weight:100%;
+  height:auto;
+  margin:auto;
 }
 
 /*---Media Queries --*/
@@ -190,7 +270,7 @@ hr.light-full {
   .btn {
     margin-bottom: 10px;
   }
-#gods h1 {
+#header-text h1 {
     padding:10px;
     margin-top:10px;
     font-size: 2.5rem;
@@ -214,7 +294,7 @@ hr.light-full {
     font-size:2.5em;
     padding:1.2rem;
   }
-  #gods h1 {
+  #header-text h1 {
     font-size: 1.8rem;
     line-height: 40px;
     }
@@ -237,7 +317,7 @@ hr.light-full {
     font-size:2em;
     padding:.7rem;
   }
-  #gods h1 {
+  #header-text h1 {
     font-size: 1.1rem;
     }
 }
